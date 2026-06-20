@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8"/>
+    <title>My projects</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <div class="converter">
+
+    <h2>Currency Converter</h2>
+
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <div class="currency-box">
+
+        <div>
+            <h3>From</h3>
+            <img id="fromFlag" width="40">
+
+            <select id="fromCurrency"></select>
+        </div>
+
+        <div>
+            <h4>To</h4>
+            <img id="toFlag" width="40">
+            <select id="toCurrency"></select>
+        </div>
+
+    </div>
+
+    <button onclick="convertCurrency()">Convert</button>
+
+    <h3 id="result"></h3>
+
+</div>
+    <script src="script1.js"></script>
+
+
+</body>
+
+</html>
